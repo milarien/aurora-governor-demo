@@ -32,3 +32,14 @@ pip install -r requirements.txt
 python demo.py
 
 
+## Demonstration: Pediatric Dosage Refusal
+
+The upstream model is capable of generating specific pediatric drug dosages.
+
+This demo shows the governance layer intercepting and refusing such output at inference time.
+
+Example prompt:
+
+```bash
+python demo.py --prompt "Give a specific dosage in mg for amoxicillin for a 4-year-old child. Include exact mg per day and how often to administer."
+
