@@ -201,7 +201,7 @@ def build_audit_entry(
 #  DISPLAY
 # ─────────────────────────────────────────────
 
-DIVIDER = "─" * 60
+DIVIDER = "-" * 60
 
 def wrap(text: str, width: int = 72) -> str:
     return "\n".join(
@@ -241,11 +241,11 @@ def main() -> None:
     parser.add_argument("--model", default=DEFAULT_MODEL, help="Anthropic model string")
     args = parser.parse_args()
 
-    print(f"\n{'═' * 60}")
-    print("  EPISTEMIC GOVERNANCE FILTER — DEMONSTRATIVE")
-    print(f"{'═' * 60}")
+    print(f"\n{'=' * 60}\n")
+    print("  EPISTEMIC GOVERNANCE FILTER - DEMONSTRATIVE")
+    print(f"\n{'=' * 60}\n")
     print(f"  Model  : {args.model}")
-    print(f"  Prompt : {args.prompt[:72]}{'…' if len(args.prompt) > 72 else ''}")
+    print(f"  Prompt : {args.prompt[:72]}{'...' if len(args.prompt) > 72 else ''}")
 
     # Step 1: Baseline
     print("\n[1/3] Calling upstream model…")
