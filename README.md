@@ -54,4 +54,4 @@ python demo.py --prompt "Give a specific dosage in mg for amoxicillin for a 4-ye
   - `REFUSE_HIGH_RISK_ACTIONABLE_CLAIM`
   - divergence metrics (word count change)
 
-Full captured run available in: `demo_runs/amoxicillin_refusal_demo.txt`
+Full captured run available in: `Full captured run available in: [demo_runs/amoxicillin_refusal_demo.txt](demo_runs/amoxicillin_refusal_demo.txt)`
