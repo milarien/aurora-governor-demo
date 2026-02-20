@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "Aurora-Lens: A Provider-Agnostic Governance Proxy for Large Language Models"
+authors:
+  - family-names: Stokes
+    given-names: Margaret
+    orcid: https://orcid.org/0009-0004-6422-4174
+repository-code: https://github.com/milarien/aurora-governor-demo
+url: https://milarien.github.io
+abstract: >
+  Aurora-Lens is a provider-agnostic runtime governance proxy that enforces 
+  epistemic admissibility at the transport layer between applications and LLM 
+  providers. It does not replace large language models; it constrains them.
+keywords:
+  - epistemic legitimacy
+  - AI governance
+  - large language models
+  - runtime enforcement
+  - admissibility
+  - audit trail
+  - LLM safety
+  - regulated AI
+license: MIT
+date-released: "2026-02-19"
+doi: 10.5281/zenodo.18705898
+preferred-citation:
+  type: article
+  title: "Epistemic Legitimacy as a Governance Layer for Large Language Models: Architecture and Implementation"
+  authors:
+    - family-names: Stokes
+      given-names: Margaret
+      orcid: https://orcid.org/0009-0004-6422-4174
+  year: 2026
+  url: https://zenodo.org/records/18653119
+  doi: 10.5281/zenodo.18653119
