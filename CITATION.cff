@@ -23,7 +23,7 @@ keywords:
   - regulated AI
 license: MIT
 date-released: "2026-02-19"
-doi: 10.5281/zenodo.18705898
+doi: 10.5281/zenodo.18705897
 preferred-citation:
   type: article
   title: "Epistemic Legitimacy as a Governance Layer for Large Language Models: Architecture and Implementation"
